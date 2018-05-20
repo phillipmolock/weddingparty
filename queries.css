@@ -1,6 +1,7 @@
 @media only screen and (min-width: 1024px) {
     .content-middle {
         padding: 0 200px;
+        text-align: center;
     }
 }
 

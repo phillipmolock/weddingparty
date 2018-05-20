@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -15,7 +14,7 @@ body {
 
 header {
     grid-area: header;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(PhilLisa-min.jpg);
+    background-image: url(PhilLisa-min.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
@@ -60,7 +59,7 @@ section p {
 }
 
 .content-middle {
-    padding: 0 100px;     
+    padding: 0 100px;  
 }
 
 sup {
@@ -128,6 +127,7 @@ h3 {
     height: auto;
     margin-top: 15px;
     border: 1px solid #bf08bf; 
+    margin: 5px 75px 5px 75px;
 }
 
 footer {
@@ -138,3 +138,9 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
+
+
+
+
+
