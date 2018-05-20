@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1024px) {
+    .content-middle {
+        padding: 0 200px;
+    }
+}
+
+/* 
+    Small tablet to big tablet: from 768 to 1023px
+*/
+@media only screen and (max-width: 1023px) {
+
+       .content-middle {
+        padding: 0 100px;
+    }
+}
+
+/* 
+    Small Phones to Small Tablets: from 481 to 767px
+*/
+@media only screen and (max-width: 767px) {
+    
+    .content-middle {
+        padding: 0 50px;
+    }
+
+}
+
+/* 
+    Small Phones: from 0 to 480px
+*/
+@media only screen and (max-width: 480px) {
+
+    .content-middle {
+        padding: 0 25px;
+    }
+}
